@@ -1,0 +1,32 @@
+project_name: "SocialSignalBench"
+random_seed: 42
+
+paths:
+  raw_data: "data/raw"
+  processed_data: "data/processed"
+  outputs: "outputs"
+  gold_slice: "data/gold_slice"
+
+ingestion:
+  ravdess_url:  "https://zenodo.org/record/1188976/files/" # Placeholder
+  ckplus_dir: "data/raw/ckplus"
+
+preprocessing:
+  audio:
+    sample_rate: 16000
+    n_mfcc: 40
+    hop_length: 512
+  face:
+    image_size: [128, 128]
+    detect_face: true
+
+model:
+  type: "baseline_audio" # or baseline_face, fusion
+  batch_size: 32
+  epochs: 50
+  learning_rate: 0.001
+  weight_decay: 1e-4
+
+gold_slice:
+  confidence_threshold: 0.6
+  min_confusion_gap: 0.1

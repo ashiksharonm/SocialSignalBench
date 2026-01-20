@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+
+# Data
+data/
+!data/gold_slice/.gitkeep
+
+# Outputs
+outputs/runs/
+*.pt
+*.h5
+
+# Environment
+.env
+.venv
+env/
+venv/
