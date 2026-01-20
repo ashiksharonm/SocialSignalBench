@@ -13,8 +13,8 @@ Build a robust, reproducible framework to evaluate how well models can detect th
 | **Hesitation** | Fear + Neutral | Fear (mild anxiety) + Neutral mimics uncertainty or hesitation. |
 
 ## 📂 Datasets
-- **Audio**: [RAVDESS](https://zenodo.org/record/1188976) (Speech) - Automatically downloaded.
-- **Video/Face**: [CK+](https://www.consortium.ri.cmu.edu/ckplus/) (Cohn-Kanade) - Requires manual download.
+- **Audio**: [RAVDESS](https://zenodo.org/record/1188976) (Speech) - Requires manual download.
+- **Video/Face**: [CK+]([https://www.consortium.ri.cmu.edu/ckplus/](https://www.ri.cmu.edu/project/cohn-kanade-au-coded-facial-expression-database/)) (Cohn-Kanade) - Requires manual download.
 
 ## 🏗 Architecture
 - **Preprocessing**: 
